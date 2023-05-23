@@ -1,3 +1,4 @@
+/* GLOBALES */
 html {
     box-sizing: border-box;
 }
@@ -14,7 +15,14 @@ html {
     border-radius: 5%;
     background-color: rgba(255, 255, 255, .30);
 }
-
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -45,6 +53,11 @@ button {
 button:hover {
     background-color: white;
     color: blue;
+}
 
-
+/* INDICE */
+.enlaces{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
