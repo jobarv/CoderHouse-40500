@@ -15,14 +15,17 @@ html {
     border-radius: 5%;
     background-color: rgba(255, 255, 255, .30);
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 20px;
 }
-a:hover{
+
+a:hover {
     background-color: blue;
     color: white;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -56,8 +59,27 @@ button:hover {
 }
 
 /* INDICE */
-.enlaces{
+.enlaces {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+/* PROYECTO 2 COMPONENTES CDN */
+#header {
+    background-color: white;
+    color: black;
+
+}
+
+#body {
+    background-color: red;
+    color: white;
+
+}
+
+#footer {
+    background-color: orange;
+    color: black;
+
 }
