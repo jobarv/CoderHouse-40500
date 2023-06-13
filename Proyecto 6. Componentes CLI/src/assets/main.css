@@ -1,0 +1,61 @@
+@import './base.css';
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    margin-left: 2.5%;
+    width: 95%;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, .30);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+button {
+    border-radius: 10px;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+}
